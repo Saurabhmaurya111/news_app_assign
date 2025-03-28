@@ -10,7 +10,11 @@ A Flutter-based news application that fetches the latest headlines from the News
 - Clicking on a news item opens the full article in a WebView.
 
 ## Screenshots
-*(Add screenshots here if available)*
+<img src="assets/login.jpg" alt="Login Screen" width="400" style="height: auto; max-height: 300px;" />
+<img src="assets/feeds.jpg" alt="Feeds Screen" width="400" style="height: auto; max-height: 300px;" />
+<img src="assets/dark_mode_feeds.jpg" alt="Dark Mode Feeds" width="400" style="height: auto; max-height: 300px;" />
+<img src="assets/web1.jpg" alt="WebView 1" width="400" style="height: auto; max-height: 300px;" />
+<img src="assets/web2.jpg" alt="WebView 2" width="400" style="height: auto; max-height: 300px;" />
 
 ## Installation
 
