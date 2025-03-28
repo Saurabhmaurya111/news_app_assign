@@ -16,7 +16,7 @@ A Flutter-based news application that fetches the latest headlines from the News
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/news_app.git
+   git clone https://github.com/Saurabhmaurya111/news_app.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -52,4 +52,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Author
-[Your Name](https://github.com/yourusername)
+[Your Name](https://github.com/Saurabhmaurya111)
