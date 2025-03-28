@@ -1,16 +1,55 @@
-# news_app
+# News App
 
-A new Flutter project.
+A Flutter-based news application that fetches the latest headlines from the News API and displays them in a user-friendly interface. Users can click on a news item to open the full article in a WebView.
 
-## Getting Started
+## Features
+- Fetches top headlines using the [NewsAPI](https://newsapi.org/).
+- Displays articles with images, titles, and sources.
+- Refresh button to fetch the latest news.
+- Supports light and dark themes.
+- Clicking on a news item opens the full article in a WebView.
 
-This project is a starting point for a Flutter application.
+## Screenshots
+*(Add screenshots here if available)*
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/news_app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd news_app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API Setup
+
+1. Get your API key from [NewsAPI](https://newsapi.org/).
+2. Replace `apiKey` in `NewsFeedPage` with your API key:
+   ```dart
+   const apiKey = 'YOUR_API_KEY_HERE';
+   ```
+
+## Dependencies
+- `flutter`
+- `provider`
+- `http`
+- `flutter_webview_plugin`
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+[Your Name](https://github.com/yourusername)
